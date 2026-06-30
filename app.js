@@ -12,11 +12,11 @@ const EVENTS = [
 ];
 
 const C = {
-  c0:'319662627779001ea689865bc824f1be493d0c59.png', c1:'7e69794f615342f0cb8ef5467acc7a4edf23a3f6.png',
-  c2:'472a2037da2d34025905dfcfe314d1115c08b1a3.png', c3:'584673a80cbbe775a74a987ca23bbe30c7731122.png',
-  c4:'f5893a702252258f5aee1011add05000fd219e7d.png', c5:'7579296bbe99af51bb22504958fb5599ea67fc64.png',
-  c6:'f6c6eb9e1ed069dcc86625e5f0edd63c4512bcd3.png', c7:'2cfa64df9dedc6e5fa04c91da7ae2f5f48e60443.png',
-  c8:'33615583385ba1776b8ff0af64b1479676096513.png', c9:'acd4495b56ce8539ffe2231dd84e2279e007962f.png',
+  c0:'319662627779001ea689865bc824f1be493d0c59.webp', c1:'7e69794f615342f0cb8ef5467acc7a4edf23a3f6.webp',
+  c2:'472a2037da2d34025905dfcfe314d1115c08b1a3.webp', c3:'584673a80cbbe775a74a987ca23bbe30c7731122.webp',
+  c4:'f5893a702252258f5aee1011add05000fd219e7d.webp', c5:'7579296bbe99af51bb22504958fb5599ea67fc64.webp',
+  c6:'f6c6eb9e1ed069dcc86625e5f0edd63c4512bcd3.webp', c7:'2cfa64df9dedc6e5fa04c91da7ae2f5f48e60443.webp',
+  c8:'33615583385ba1776b8ff0af64b1479676096513.webp', c9:'acd4495b56ce8539ffe2231dd84e2279e007962f.webp',
 };
 const BUSIEST_HOSTELS = [
   { rank:1, name:"Kabul Party Hostel Barcelona", rating:9.5, reviews:11209, price:"€14", travellers:244, image:C.c0 },
@@ -31,11 +31,11 @@ const BUSIEST_HOSTELS = [
   { rank:10, name:"Dream Hostel Barcelona", rating:9.0, reviews:5320, price:"€14", travellers:55, image:C.c1 },
 ];
 
-const IMG = ['0aad86a39df47d54338036a8d8d2b580683f02a9.png','0cb34d9f74db336260080ab764c89a855a1163a1.png',
-  'e3596d01a16f0f2435fa4ec7ed224967747f8e57.png','c300c1f4bd5f314a6b7b4cc814fa0f073fa54973.png',
-  '9ec60bde0d516cc48ac8de68809ce0a73c811360.png','728204e48f883a18ab3e4299545afe2383e7d785.png',
-  '9ec7d40cfe574394c664b1507880fae036d2ba76.png','c5cc86162075bb1ecdfc68eab34e502ed3b152ac.png',
-  '870fe2c86a4ec57865f5dbfa5f9643078b689861.png','ed13e33a4ebb1f2c8f75b1d3f19411f47f63fb38.png'];
+const IMG = ['0aad86a39df47d54338036a8d8d2b580683f02a9.webp','0cb34d9f74db336260080ab764c89a855a1163a1.webp',
+  'e3596d01a16f0f2435fa4ec7ed224967747f8e57.webp','c300c1f4bd5f314a6b7b4cc814fa0f073fa54973.webp',
+  '9ec60bde0d516cc48ac8de68809ce0a73c811360.webp','728204e48f883a18ab3e4299545afe2383e7d785.webp',
+  '9ec7d40cfe574394c664b1507880fae036d2ba76.webp','c5cc86162075bb1ecdfc68eab34e502ed3b152ac.webp',
+  '870fe2c86a4ec57865f5dbfa5f9643078b689861.webp','ed13e33a4ebb1f2c8f75b1d3f19411f47f63fb38.webp'];
 const BEST_HOSTELS = [
   { name:"Kabul Party Hostel", rating:9.5, reviews:11209, price:"€14", image:IMG[0] },
   { name:"Onefam Les Corts", rating:9.6, reviews:5090, price:"€16", image:IMG[1] },
@@ -49,11 +49,11 @@ const BEST_HOSTELS = [
   { name:"Dream Hostel Barcelona", rating:9.0, reviews:5320, price:"€14", image:IMG[9] },
 ];
 
-const W = ['4e63b146c8655baa9d4051a51c4cfc439c384483.png','487729dc534ad52289409102e6caca3b18ba53e3.png',
-  '23ada14143eed3b861954521a568c75d61b9e026.png','12f196527c312fb50761c038429dedbe47442a6b.png',
-  'f3e8e1b3a4b591933fb090d60a11789a174ea518.png','5c5f724ed932da2ae70a56026859b5a8e2e1b179.png',
-  'f79a1c9248fcd4eceab7593efbea4af5ce7033ff.png','63314823e34a8843474d0352e419616299c630ff.png',
-  '839be46d5d38386b4dda63d04b8ac9973892ba4a.png','e45a2d4b3b1a8314f1e5ae74e5d78fd08d51cd23.png'];
+const W = ['4e63b146c8655baa9d4051a51c4cfc439c384483.webp','487729dc534ad52289409102e6caca3b18ba53e3.webp',
+  '23ada14143eed3b861954521a568c75d61b9e026.webp','12f196527c312fb50761c038429dedbe47442a6b.webp',
+  'f3e8e1b3a4b591933fb090d60a11789a174ea518.webp','5c5f724ed932da2ae70a56026859b5a8e2e1b179.webp',
+  'f79a1c9248fcd4eceab7593efbea4af5ce7033ff.webp','63314823e34a8843474d0352e419616299c630ff.webp',
+  '839be46d5d38386b4dda63d04b8ac9973892ba4a.webp','e45a2d4b3b1a8314f1e5ae74e5d78fd08d51cd23.webp'];
 const UPCOMING_EVENTS = [
   { rank:1, title:"Barcelona Food Tour", date:"15 February 2026", hostel:"Kabul Party Hostel Barcelona", image:W[0] },
   { rank:2, title:"Old Town tapas crawl", date:"17 February 2026", hostel:"Black Swan Hostel", image:W[1] },
