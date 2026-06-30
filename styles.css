@@ -94,10 +94,12 @@ a{text-decoration:none; color:inherit;}
 .stat-md{font-family:'Poppins',sans-serif; font-weight:700; font-size:28px;}
 .stat-name{font-family:'Poppins',sans-serif; font-weight:700; font-size:20px;}
 .stat-label{font-size:16px; margin:0;}
-.stat-label-lg{font-size:18px; margin:8px 0 0; max-width:280px;}
+.stat-label-lg{font-size:18px; margin:0; max-width:280px;}
 .stat-label-strong{font-size:16px; font-weight:700; margin:0 0 8px;}
-.stat-sub{font-size:14px; color:var(--muted); margin:0;}
-.fact-big{flex:1 0 0; min-width:300px; padding:24px; display:flex; flex-direction:column; justify-content:space-between; min-height:322px;}
+.stat-sub{font-size:14px; color:var(--ink); margin:0;}
+.stat-text{display:flex; flex-direction:column; gap:0;}
+.fact-big{flex:1 0 0; min-width:300px; padding:24px; display:flex; flex-direction:column; gap:8px;}
+.fact-big .stat-text{margin-top:auto;}
 .fact-big-top{display:flex; align-items:flex-start; justify-content:space-between;}
 .updated-badge{display:inline-flex; align-items:center; gap:8px; background:var(--gray); padding:8px 16px; border-radius:24px; font-size:14px; height:fit-content;}
 .pulse-dot{position:relative; width:24px; height:24px; display:inline-block;}
@@ -110,8 +112,9 @@ a{text-decoration:none; color:inherit;}
 .fact-col{flex:1 0 0; min-width:300px; display:flex; flex-direction:column; gap:16px;}
 .fact-col-top{display:flex; gap:16px; align-items:stretch;}
 .fact-col-top .card-outline{flex:1 0 0; min-width:120px; display:flex; flex-direction:column; gap:8px;}
-.card-row{display:flex; flex-wrap:wrap; gap:16px; align-items:center; min-height:120px;}
-.fact-activity{flex:1 0 0; min-width:120px; min-height:179px;}
+.fact-col-top .card-outline .stat-text{margin-top:auto;}
+.card-row{display:flex; flex-wrap:wrap; gap:16px; align-items:center;}
+.fact-activity{flex:1 0 0; min-width:120px;}
 .fact-nat{flex:1 0 0; min-width:280px; display:flex; flex-direction:column; gap:8px;}
 .nat-row{display:flex; align-items:center; gap:8px;}
 .nat-name{flex:1; font-size:16px;}
