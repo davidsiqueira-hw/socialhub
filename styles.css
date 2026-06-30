@@ -226,7 +226,7 @@ a{text-decoration:none; color:inherit;}
 .city-pills{display:flex; flex-wrap:wrap; gap:16px;}
 .city-pill{background:var(--purple); display:flex; flex-direction:column; gap:0; align-items:flex-start; justify-content:center; padding:12px 24px; border-radius:29px; transition:background .2s; cursor:pointer;}
 .city-pill:hover{background:#56228B;}
-.city-pill .city-name{font-weight:700; font-size:16px; color:#fff;}
+.city-pill .city-name{font-weight:700; font-size:16px; color:#fff; line-height:100%;}
 .city-pill .city-country{font-size:12px; letter-spacing:.2px; color:rgba(255,255,255,0.85);}
 
 /* ===== Footer (WDS Full) ===== */
@@ -253,7 +253,10 @@ a{text-decoration:none; color:inherit;}
 
 /* Partner badges + copyright */
 .footer-badges{display:flex; gap:16px; flex-wrap:wrap; align-items:center;}
-.footer-badge{display:inline-flex; align-items:center; gap:6px; font-size:11px; font-weight:700; color:#fff; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:8px; padding:8px 12px;}
+.footer-badges{align-items:center; gap:12px;}
+.footer-badge{display:block; width:auto;}
+.footer-badge[alt="Secure GlobalSign"]{height:40px;}
+.footer-badge[alt="Climate Neutral Company"]{height:56px;}
 .copyright{font-size:12px; color:rgba(255,255,255,.5); margin:0;}
 
 /* Legal row */
