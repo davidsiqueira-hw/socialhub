@@ -55,8 +55,8 @@ a{text-decoration:none; color:inherit;}
 .avatar-circle.z2,.avatar-square.z2{z-index:2;}
 .avatar-circle.z1,.avatar-square.z1{z-index:1;}
 .pill{display:inline-flex; align-items:center; font-size:12px; font-weight:500;}
-.pill-purple{background:var(--purple-bg); color:var(--purple); padding:4px 8px 4px 16px; border-radius:100px; margin-left:-8px;}
-.pill-sm{height:24px; border-radius:22px; padding:0 12px;}
+.pill-purple{background:var(--purple-bg); color:var(--purple); padding:4px 12px 4px 28px; border-radius:100px; margin-left:-8px;}
+.pill-sm{height:24px; border-radius:22px; padding:0 12px 0 28px;}
 .hero-text{flex:1 0 0; min-width:280px; display:flex; flex-direction:column; gap:24px; padding:0 24px;}
 .hero-title{font-family:'Poppins',sans-serif; font-weight:700; font-size:48px; line-height:56px; letter-spacing:-.4px; margin:0;}
 .hero-body{font-size:14px; line-height:20px; letter-spacing:.1px; margin:0;}
@@ -86,6 +86,7 @@ a{text-decoration:none; color:inherit;}
 .facts{background:var(--gray); padding:64px 0;}
 .facts .container{display:flex; flex-direction:column; gap:8px;}
 .facts-row{display:flex; flex-wrap:wrap; gap:16px; align-items:stretch; padding:0;}
+.facts-row + .facts-row{margin-top:16px;}
 .card-white{background:#fff; border-radius:24px;}
 .card-outline{background:#fff; border-radius:24px; border:2px solid var(--gray); padding:24px;}
 .icon-box{background:var(--orange-bg); padding:16px; border-radius:16px; display:inline-flex; width:fit-content;}
@@ -127,7 +128,7 @@ a{text-decoration:none; color:inherit;}
 .carousel-nav{display:flex; align-items:center; gap:8px; flex-shrink:0; padding-top:12px;}
 .nav-btn{width:44px; height:44px; display:flex; align-items:center; justify-content:center; border-radius:20px; background:#fff; box-shadow:0 2px 4px rgba(0,0,0,.15); transition:opacity .2s;}
 .nav-btn.disabled{opacity:.3; pointer-events:none;}
-.track-wrap{position:relative;}
+.track-wrap{position:relative; max-width:1440px; margin:0 auto;}
 .fade{position:absolute; top:0; bottom:0; width:96px; z-index:10; pointer-events:none; transition:opacity .3s; opacity:0;}
 .fade-left{left:0;}
 .fade-right{right:0; opacity:1;}
