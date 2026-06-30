@@ -176,7 +176,7 @@ fillTrack('whatson', WHATS_ON, whatsonCard);
   // Auto-scroll with manual override
   const scroller = m.parentElement;          // .marquee (the overflow container)
   const SPEED = 40;                           // px per second
-  const RESUME_DELAY = 5000;                  // ms idle before auto-scroll resumes
+  const RESUME_DELAY = 2000;                  // ms idle before auto-scroll resumes
   let paused = false;
   let resumeTimer = null;
   let last = null;

@@ -184,7 +184,7 @@ a{text-decoration:none; color:inherit;}
 /* ===== CTA ===== */
 .cta-wrap{padding:32px 0;}
 .cta-card{background:var(--orange); position:relative; overflow:hidden; border-radius:24px; display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:center;}
-.cta-dots{position:absolute; bottom:0; right:0; width:573px; max-width:60%; height:auto; pointer-events:none; z-index:1;}
+.cta-dots{position:absolute; bottom:0; right:0; width:760px; max-width:75%; height:auto; pointer-events:none; z-index:1;}
 .cta-left{flex:1 0 0; min-width:300px; position:relative; z-index:10; display:flex; flex-direction:column; gap:8px; align-items:flex-start; padding:24px 40px;}
 .qr-block{display:none; flex-direction:column; align-items:center; gap:8px; margin-top:8px;}
 .qr-code{width:128px; height:128px; border-radius:16px;}
@@ -199,6 +199,14 @@ a{text-decoration:none; color:inherit;}
 .cta-right{flex:1 0 0; min-width:300px; position:relative; z-index:10; display:flex; align-items:flex-end; justify-content:center;}
 .phone-frame{max-width:480px; max-height:374px; overflow:hidden; pointer-events:none; display:flex; justify-content:center;}
 .phone-frame img{width:100%; object-fit:contain;}
+
+/* Desktop: phone fills vertical height, pinned to the right edge */
+@media(min-width:1024px){
+  .cta-card{min-height:420px;}
+  .cta-right{align-items:stretch; justify-content:flex-end;}
+  .phone-frame{max-width:none; max-height:none; height:100%; align-items:flex-end; justify-content:flex-end;}
+  .phone-frame img{width:auto; height:100%; object-fit:contain; object-position:bottom right;}
+}
 
 /* ===== FAQ + cities ===== */
 .faq-section{background:#fff; padding:64px 0;}
